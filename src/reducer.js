@@ -1,3 +1,5 @@
+import { CLEAR_LIST, REMOVE_ITEM, RESET_LIST } from "./actions";
+import { people as users } from "./data";
 const reducer = (state, action) => {
   if (action.type === CLEAR_LIST) {
     return {
